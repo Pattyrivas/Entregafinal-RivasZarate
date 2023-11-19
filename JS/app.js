@@ -46,4 +46,12 @@ if (userName === "" || !isNaN(userName) || /\d/.test(userName)) {
     alert(`Total a pagar: $${totalPedido}`);
     alert(`Propina (10%): $${propina}`);
     alert(`Total a pagar con propina: $${totalPedido + propina}, gracias por tu compra :)`);
+
+    // Método filter y función para filtrar ingredientes caros
+    const ingredientesCaros = filtrarIngredientesCaros(pedido, menuPizza);
+    console.log('Ingredientes caros:', ingredientesCaros);
+
+    function filtrarIngredientesCaros(pedido, menuPizza) {
+        return pedido.filter(ingrediente => menuPizza[ingrediente] > 300);
+    }
 }
