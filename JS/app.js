@@ -13,6 +13,7 @@ if (userName === "" || !isNaN(userName) || /\d/.test(userName)) {
 
     let totalPedido = 0;
     let pedido = [];
+    let propina = 0;
 
     while (true) {
         console.log("Menú Ingredientes:");
@@ -35,6 +36,14 @@ if (userName === "" || !isNaN(userName) || /\d/.test(userName)) {
         }
     }
 
+    function calcularPropina(totalPedido) {
+        return totalPedido * 0.1;
+    }
+
+    propina = calcularPropina(totalPedido);
+
     alert(`Tu pedido es: Pizza con ${pedido.join(", ")}`);
-    alert(`Total a pagar: $${totalPedido}, gracias por tu compra :)`);
+    alert(`Total a pagar: $${totalPedido}`);
+    alert(`Propina (10%): $${propina}`);
+    alert(`Total a pagar con propina: $${totalPedido + propina}, gracias por tu compra :)`);
 }

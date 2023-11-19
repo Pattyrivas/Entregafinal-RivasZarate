@@ -5,6 +5,6 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
-h1, h2, ul{
+h1, h2, ul, p{
     color: white;
 }
