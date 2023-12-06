@@ -1,10 +1,34 @@
 body {
-    background-image: url(https://images4.alphacoders.com/107/1074058.jpg);
+    background-image: url(https://media.istockphoto.com/id/1798647244/es/foto/primer-plano-de-un-pizzero-que-sirve-pizzas-reci%C3%A9n-horneadas-en-el-plato.jpg?s=1024x1024&w=is&k=20&c=xtM0OZlOla5zYUty2qkN1N_Unw1NF4mJojZCWhRQ5zg=);
     background-repeat: no-repeat;
-    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
 }
-h1, h2, ul, p{
+
+h1,
+h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.parrafo p {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+footer {
+    padding: 40px;
+    margin: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.btnRepetir,
+.form-label {
+    display: flex;
+    justify-content: center;
     color: white;
 }
