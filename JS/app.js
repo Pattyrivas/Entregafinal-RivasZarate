@@ -1,5 +1,5 @@
 const menuIngredientes = [
-    { nombre: "Queso", valor: 390, img: "../src/Queso.jpeg" },
+    { nombre: "Queso", valor: 390, img: "./src/Queso.jpeg" },
     { nombre: "Pepperoni", valor: 1290, img: "./src/Pepperoni.jpeg" },
     { nombre: "Maiz", valor: 990, img: "./src/Maiz.jpeg" },
     { nombre: "Jamón Serrano", valor: 1490, img: "./src/Jamon.jpeg" },
