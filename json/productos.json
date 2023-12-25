@@ -1,0 +1,42 @@
+[
+    {
+        "nombre": "Queso",
+        "valor": 390,
+        "img": "./src/Queso.jpeg"
+    },
+    {
+        "nombre": "Pepperoni",
+        "valor": 1290,
+        "img": "./src/Pepperoni.jpeg"
+    },
+    {
+        "nombre": "Maiz",
+        "valor": 990,
+        "img": "./src/Maiz.jpeg"
+    },
+    {
+        "nombre": "Jamón Serrano",
+        "valor": 1490,
+        "img": "./src/Jamon.jpeg"
+    },
+    {
+        "nombre": "Aceitunas",
+        "valor": 790,
+        "img": "./src/Aceitunas.jpeg"
+    },
+    {
+        "nombre": "Piña",
+        "valor": 490,
+        "img": "./src/Piña.jpeg"
+    },
+    {
+        "nombre": "Tomate",
+        "valor": 390,
+        "img": "./src/Tomate.jpeg"
+    },
+    {
+        "nombre": "Tocino",
+        "valor": 990,
+        "img": "./src/Tocino.jpeg"
+    }
+]
