@@ -178,9 +178,9 @@ function finalizarPedido(deberCerrarModal = true) {
     Swal.fire({
         position: "center",
         icon: "success",
-        title: "Gracias por tu compra :)",
+        title: "Tu pizza está en camino. ¡Agradecemos tu preferencia! :)",
         showConfirmButton: false,
-        timer: 2500
+        timer: 2700
     });
     const elementosPedido = carritoContenido.querySelectorAll("p");
     const ingredientesPedido = Array.from(elementosPedido).map(elemento => {
@@ -236,11 +236,9 @@ function mostrarModalRepetirPedido() {
                 divIngrediente.innerHTML = `<p>${ingrediente.nombre} - Valor: ${ingrediente.valor}</p>`;
                 document.getElementById('repetirPedidoContenido').appendChild(divIngrediente);
 
-                // Sumar al total del pedido
                 totalPedido += ingrediente.valor;
             });
 
-            // Mostrar el total del pedido
             document.getElementById('resultadoRepetirPedidoModal').innerHTML = `
                 <p>Total del Pedido Anterior: ${totalPedido}</p>
             `;

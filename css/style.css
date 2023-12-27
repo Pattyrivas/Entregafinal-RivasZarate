@@ -3,7 +3,8 @@ body {
     padding: 0;
     background-color: #FBF6EE;
 }
-.info{
+
+.info {
     color: black;
     border-radius: 20px;
     font-family: 'ABeeZee', sans-serif;
@@ -16,7 +17,7 @@ body {
     background-color: #FFB534 !important;
 }
 
-.menuInicial div a{
+.menuInicial div a {
     font-size: 40px;
 }
 
@@ -31,46 +32,51 @@ body {
     font-size: 15px;
 }
 
+.menuSecundario form button a {
+    text-decoration: none;
+    color: black;
+}
 
 /* cards ingredientes*/
 
-.card{
+.card {
     background-color: #FBF6EE;
     border-style: none;
     font-family: 'ABeeZee', sans-serif;
     font-size: small;
 }
 
-.card img{
+.card img {
     border-radius: 20px;
 }
 
-.card .btn{
-    background-color:  #FFB534;
+.card .btn {
+    background-color: #FFB534;
     color: black;
     border-color: #FFB534;
     border-radius: 20px;
 
 }
 
-.card .btn:active{
-    background-color:  #e6a22d;
-    color:#FBF6EE;
-    border-color:  #e6a22d;
+.card .btn:active {
+    background-color: #e6a22d;
+    color: #FBF6EE;
+    border-color: #e6a22d;
     border-radius: 20px;
 
 }
 
-.form-label, .form-select {
-    font-family: 'ABeeZee', sans-serif; 
+.form-label,
+.form-select {
+    font-family: 'ABeeZee', sans-serif;
 }
 
 /* resto del main */
 
-.pasosPizzeria img{
+.pasosPizzeria img {
     object-fit: cover;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -82,12 +88,29 @@ h1 {
     background: #FFB534;
     border-radius: 20px;
     font-size: 32px;
+    padding: 12px;
 }
 
-.ingredientes{
+.ingredientes {
     padding-top: 70px;
 }
 
+#acercaDeNosotros {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#acercaDeNosotros .row .col img {
+    width: auto;
+    height: 300px;
+}
+
+#acercaDeNosotros .row .col p {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: medium;
+    padding-top: 40px;
+
+}
 
 footer {
     padding: 40px;
@@ -95,11 +118,23 @@ footer {
     color: black;
     display: flex;
     justify-content: center;
+    background-color: #FFB534;
+    border-radius: 20px;
 }
 
-.btnRepetir,
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer .parrafo p {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: small;
+}
+
 .form-label {
     display: flex;
     justify-content: center;
     color: black;
+    padding: 15px;
 }
