@@ -19,21 +19,24 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg menuInicial">
-            <div class="container-fluid d-flex justify-content-center">
-                <a class="navbar-brand" href="index.html"> <img src="./src/logo.png" alt="Logo Pattyta Pizzeria"
-                        width="90" height="50" class="d-inline-block align-text-top"> Pattyta Pizzeria</a>
-            </div>
-        </nav>
-        <nav class="navbar menuSecundario">
-            <form class="container-fluid d-flex justify-content-center">
-                <button class="btn btn-sm" type="button"><a href="#acercaDeNosotros">Acerca de Nosotros</a></button>
-                <button class="btn btn-sm" type="button"><a href="#menuSeleccion">Ingredientes</a></button>
-                <button class="btn btn-sm" type="button" onclick="mostrarModalRepetirPedido()">Pedido Anterior</button>
-                <button class="btn btn-outline-success me-2" type="button">Tu orden aquí <i
-                        class="fa-solid fa-pizza-slice"></i></button>
-            </form>
-        </nav>
+        <div id="inicio">
+            <nav class="navbar navbar-expand-lg menuInicial">
+                <div class="container-fluid d-flex justify-content-center">
+                    <a class="navbar-brand" href="index.html"> <img src="./src/logo.png" alt="Logo Pattyta Pizzeria"
+                            width="90" height="50" class="d-inline-block align-text-top"> Pattyta Pizzeria</a>
+                </div>
+            </nav>
+            <nav class="navbar menuSecundario">
+                <form class="container-fluid d-flex justify-content-center">
+                    <button class="btn btn-sm" type="button"><a href="#acercaDeNosotros">Acerca de Nosotros</a></button>
+                    <button class="btn btn-sm" type="button"><a href="#menuSeleccion">Ingredientes</a></button>
+                    <button class="btn btn-sm" type="button" onclick="mostrarModalRepetirPedido()">Pedido
+                        Anterior</button>
+                    <button class="btn btn-outline-success me-2" type="button">Tu orden aquí <i
+                            class="fa-solid fa-pizza-slice"></i></button>
+                </form>
+            </nav>
+        </div>
     </header>
     <main class="container">
         <div class="pasosPizzeria">
@@ -119,7 +122,8 @@
                 <div class="col">
                     <p class="text-center">
                         Desde nuestro inicio en el año 2023, nos
-                        hemos dedicado a ofrecer una experiencia única para los amantes de la pizza. <br>Inspirados en el
+                        hemos dedicado a ofrecer una experiencia única para los amantes de la pizza. <br>Inspirados en
+                        el
                         auténtico estilo neoyorquino, nuestra masa se convierte en el lienzo perfecto para tu elección
                         de ingredientes frescos. <br> Descubre el arte de la pizza en cada rebanada, donde la
                         creatividad y la tradición se
@@ -127,6 +131,9 @@
                             nuestro rincón
                             delicioso en el corazón de Pattyta Pizzeria!</strong></p>
                 </div>
+            </div>
+            <div class="row">
+            <button class="btn btn-sm btn-inicio col" type="button"><a href="#inicio">Ir al Inicio</a></button>
             </div>
         </section>
     </main>

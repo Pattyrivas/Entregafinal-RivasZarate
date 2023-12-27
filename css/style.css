@@ -21,7 +21,7 @@ body {
     font-size: 40px;
 }
 
-.menuSecundario {
+.menuSecundario, .btn-inicio a {
     font-family: 'ABeeZee', sans-serif;
     padding: 20px;
 }
@@ -32,7 +32,7 @@ body {
     font-size: 15px;
 }
 
-.menuSecundario form button a {
+.menuSecundario form button a, .btn-inicio a{
     text-decoration: none;
     color: black;
 }
@@ -50,7 +50,7 @@ body {
     border-radius: 20px;
 }
 
-.card .btn {
+.card .btn, .btn-inicio {
     background-color: #FFB534;
     color: black;
     border-color: #FFB534;
